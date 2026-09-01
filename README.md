@@ -42,7 +42,8 @@ average SRS channel IQ
 - `openair2/LAYER2/NR_MAC_gNB/nr_mac_gNB.h`
 - `openair2/LAYER2/NR_MAC_gNB/gNB_scheduler_ulsch.c`
 - `openair1/SCHED_NR/nr_ru_procedures.c`
-- `CMakeLists.txt`
+- `openairinterface5g/CMakeLists.txt
+`
 
 ## Contents
 
