@@ -73,3 +73,18 @@ smoothing disabled altogether.
 - UL compensation (frequency-domain, post-FFT) and DL pre-compensation
   (time-domain, post-OFDM-modulation) both engage only when `|filtered Doppler| >
   0.1 Hz`, using opposite-sign rotation to cancel the channel-induced shift
+
+## Observations
+
+- Estimated Doppler values are **very small (≈ 0 Hz)**  
+  *(e.g., 0.94 Hz, 0.73 Hz)*  
+- Values are **stable with minimal variation**  
+- Compensation effect is **limited under current setup**  
+
+### Reason
+
+- Experiments conducted in an **indoor environment**  
+- **No high-mobility scenarios** (UE mostly static/slow)  
+- **Short UE–gNB distance** and controlled conditions  
+
+Result: **Negligible Doppler shift observed**
