@@ -1,0 +1,7 @@
+*.log
+logs/*.log
+build/
+*.o
+*.pcap
+.DS_Store
+*.swp
